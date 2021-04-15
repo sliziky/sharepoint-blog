@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Gatsby Starter Personal Blog`,
+    title: `Welcome to Peter's blog`,
     author: `Gatsby`,
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -15,6 +15,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-material-ui`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: "gatsby-plugin-local-search",

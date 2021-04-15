@@ -20,7 +20,7 @@ function Bio() {
         const { author, social } = data.site.siteMetadata
         return (
           <Container>
-            <Image
+            {/* <Image
               fixed={data.avatar.childImageSharp.fixed}
               alt={author}
               style={{
@@ -40,7 +40,7 @@ function Bio() {
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on Twitter
               </a>
-            </p>
+            </p> */}
           </Container>
         )
       }}

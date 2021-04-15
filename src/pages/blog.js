@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
 import SearchPosts from "../components/searchPosts"
+import * as containerStyles from "./blog.module.css"
 
 class Blog extends React.Component {
   render() {
@@ -13,10 +14,11 @@ class Blog extends React.Component {
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMdx.edges
     const localSearchBlog = data.localSearchBlog
-
+    
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
+        <div className={containerStyles.container}/>
         <Bio />
         <SearchPosts
           posts={posts}
@@ -25,7 +27,7 @@ class Blog extends React.Component {
           location={location}
         />
         <Link to="/">
-          <Button marginTop="85px">Go Home</Button>
+          <Button marginTop="85px">Go</Button>
         </Link>
       </Layout>
     )
