@@ -2,4 +2,4 @@
 
 This website is used as a personal blog with articles aimed mostly for SharePoint and stuff about this tool, including tips & tricks, some advices etc.
 
-The visual will be updated in the future, the main goal right now will be to publish a few articles and add some stuff.
+The visual will be updated in the future, the main goal right now is to publish a few articles and add some stuff.
