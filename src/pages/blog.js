@@ -18,7 +18,6 @@ class Blog extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <div className={containerStyles.container}/>
         <Bio />
         <SearchPosts
           posts={posts}
@@ -27,7 +26,7 @@ class Blog extends React.Component {
           location={location}
         />
         <Link to="/">
-          <Button marginTop="85px">Go</Button>
+          <Button marginTop="85px">Go Up</Button>
         </Link>
       </Layout>
     )
