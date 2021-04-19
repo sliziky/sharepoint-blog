@@ -23,10 +23,9 @@ button {
   background-color: #512bd4 !important;
 }
 html {
-  background: rgb(236,240,255);
-  background: radial-gradient(circle, rgba(236,240,255,1) 0%, rgba(230,231,255,1) 44%);
+  background-color: #ecf0ff;
+  /* //background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%); */
 }
-.container-posts {
+/* .container-posts {
   /* border: 10px #512bd4;
   border-style: dashed; */
-}
