@@ -4,12 +4,29 @@
 
 header > h1 > a {
   color: #3282b8 !important;
-}
-
-h3 > a {
+}*/
+/* h3 > a {
   color: #3282b8;
 }
 
 div > p {
   color: #bbe1fa;
 } */
+header > h1 > a {
+  color: #512bd4 !important;
+}
+
+h3 > a {
+  color: #512bd4 !important;
+}
+button {
+  background-color: #512bd4 !important;
+}
+html {
+  background: rgb(236,240,255);
+  background: radial-gradient(circle, rgba(236,240,255,1) 0%, rgba(230,231,255,1) 44%);
+}
+.container-posts {
+  /* border: 10px #512bd4;
+  border-style: dashed; */
+}

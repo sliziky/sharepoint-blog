@@ -81,7 +81,7 @@ const AllPosts = ({ posts }) => (
     {posts.map(({ node }) => {
       const title = node.frontmatter.title || node.fields.slug
       return (
-        <div key={node.fields.slug}>
+        <div key={node.fields.slug} className={'container-posts'}>
           <h3
             style={{
               marginBottom: rhythm(1 / 4),
